@@ -6,15 +6,15 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav aria-label='навигация по сайту'>
             <a href="index.html">
                 <img src="img/device.svg" alt="Логотип сайта DEVICE">
             </a>
-            <p>поиск по сайту</p>
+            <input type='search' placeholder='Поиск по сайту'>
             <ul>
-                <li>войти</li>
-                <li>сравнить</li>
-                <li>корзина</li>
+                <li><button>войти</button></li>
+                <li><button>сравнить</button></li>
+                <li><button>корзина</button></li>
             </ul>
             <ul>
                 <li>
@@ -36,7 +36,7 @@
         <h1>каталог товаров</h1>
         <section>
             <h2>моноподы для селфи</h2>
-            <nav>
+            <nav aria-label='навигация по каталогу'>
                 <ul>
                     <li>
                         <a href="#">Главная</a>
@@ -51,8 +51,8 @@
             </nav>
         </section>
         <section>
-            <div>
-                <h3>фильтр:</h3>
+            <fieldset>
+                <legend>фильтр:</legend>
                 <div>
                     <div>
                         <h4>стоимость</h4>
@@ -91,7 +91,7 @@
                     </div>
                     <button>показать</button>
                 </div>
-            </div>
+            </fieldset>
             <div>
                 <div>
                     <h3>сортировка:</h3>
@@ -177,7 +177,7 @@
             </ul>
         </div>
         <div>
-            <p>г. Москва, ул. Строителей, 15</p>
+            <address>г. Москва, ул. Строителей, 15</address>
             <ul>
                 <li>
                     <button type="button">
@@ -195,13 +195,13 @@
                     </button>
                 </li>
             </ul>
-            <a href="#">Тел.: +7 (495) 495-95-95</a>
+            <a href='+74954959595' >Тел.: +7 (495) 495-95-95</a>
         </div>
         <div>
             <div></div>
             <ul>
                 <li>
-                    <a href="#">
+                    <a href="#" aria-label='ссылка на DEVICE в фейсбуке'>
                         <img src="img/facebook.svg" alt="ссылка на страницу DEVICE в фейсбуке">
                     </a>
                 </li>
