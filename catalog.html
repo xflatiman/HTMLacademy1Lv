@@ -55,47 +55,33 @@
             </nav>
         </section>
         <section>
-            <fieldset>
-                <legend>фильтр:</legend>
+            <form action='https://echo.htmlacademy.ru' method='post'>фильтр:
                 <div>
-                    <div>
-                        <h4>стоимость</h4>
-                        <div></div>
-                    </div>
-                    <div>
-                        <h4>цвет</h4>
-                        <ul>
-                            <li>
-                                <button>черный</button> <!--чекбоксы!!!-->
-                            </li>
-                            <li>
-                                <button>белый</button> <!--чекбоксы!!!-->
-                            </li>
-                            <li>
-                                <button>синий</button> <!--чекбоксы!!!-->
-                            </li>
-                            <li>
-                                <button>красный</button> <!--чекбоксы!!!-->
-                            </li>
-                            <li>
-                                <button>розовый</button> <!--чекбоксы!!!-->
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4>bluetooth</h4>
-                        <ul>
-                            <li>
-                                <button>Есть</button>
-                            </li>
-                            <li>
-                                <button>нет</button>
-                            </li>
-                        </ul>
-                    </div>
-                    <button>показать</button>
+                    <h4>стоимость</h4>
+                    <div></div>
                 </div>
-            </fieldset>
+                <fieldset>
+                    <legend>цвет</legend>
+                    <label for='black-check-box'>черный</label>
+                    <input type='checkbox' id='black-check-box' name='color-black' checked>
+                    <label for='white-check-box'>черный</label>
+                    <input type='checkbox' id='white-check-box' name='color-white'>
+                    <label for='blue-check-box'>черный</label>
+                    <input type='checkbox' id='blue-check-box' name='color-blue' checked>
+                    <label for='red-check-box'>черный</label>
+                    <input type='checkbox' id='red-check-box' name='color-red' checked>
+                    <label for='pink-check-box'>черный</label>
+                    <input type='checkbox' id='pink-check-box' name='color-pink'>
+                </fieldset>
+                <fieldset>
+                    <legend>bluetooth</legend>
+                    <input type='radio' id='bluetooth-have' name='bluetooth-have' checked>
+                    <label for='bluetooth-have'>есть</label>
+                    <input type='radio' id='bluetooth-dont' name='bluetooth-dont'>
+                    <label for='bluetooth-dont'>нет</label>
+                </fieldset>
+                <button type='submit'>показать</button>
+            </form>
             <div>
                 <div>
                     <h3>сортировка:</h3>
