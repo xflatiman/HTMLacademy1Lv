@@ -1,33 +1,37 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang='ru'>
 <head>
-    <meta charset="UTF-8">
+    <meta charset='UTF-8'>
     <title>Каталог товаров</title>
 </head>
 <body>
     <header>
         <nav aria-label='навигация по сайту'>
-            <a href="index.html">
-                <img src="img/device.svg" alt="Логотип сайта DEVICE">
+            <a href='index.html'>
+                <img src='img/device.svg' alt='Логотип сайта DEVICE'>
             </a>
-            <input type='search' placeholder='Поиск по сайту'>
+            <form action='#' method='get'>
+                <label for='search'>поиск по сайту:</label>
+                <input id='search' type='search' placeholder='Поиск по сайту'>
+                <button type='submit'>найти</button>
+            </form>
             <ul>
-                <li><button>войти</button></li>
-                <li><button>сравнить</button></li>
-                <li><button>корзина</button></li>
+                <li><button type='button'>войти</button></li>
+                <li><button type='button'>сравнить</button></li>
+                <li><button type='button'>корзина</button></li>
             </ul>
             <ul>
                 <li>
-                    <a href="catalog.html">каталог товаров</a>
+                    <a href='catalog.html'>каталог товаров</a>
                 </li>
                 <li>
-                    <button type="button">доставка</button>
+                    <button type='button'>доставка</button>
                 </li>
                 <li>
-                    <button type="button">гарантия</button>
+                    <button type='button'>гарантия</button>
                 </li>
                 <li>
-                    <button type="button">контакты</button>
+                    <button type='button'>контакты</button>
                 </li>
             </ul>
         </nav>
@@ -39,13 +43,13 @@
             <nav aria-label='навигация по каталогу'>
                 <ul>
                     <li>
-                        <a href="#">Главная</a>
+                        <a href='#'>Главная</a>
                     </li>
                     <li>
-                        <a href="#">каталог товаров</a>
+                        <a href='#'>каталог товаров</a>
                     </li>
                     <li>
-                        <a href="#">млглплжы ждя селфи</a>
+                        <a href='#'>млглплжы ждя селфи</a>
                     </li>
                 </ul>
             </nav>
@@ -97,82 +101,82 @@
                     <h3>сортировка:</h3>
                     <ul>
                         <li>
-                            <button type="button">по цене</button>
+                            <button type='button'>по цене</button>
                         </li>
                         <li>
-                            <button type="button">по типу</button>
+                            <button type='button'>по типу</button>
                         </li>
                         <li>
-                            <button type="button">по популярности</button>
+                            <button type='button'>по популярности</button>
                         </li>
                     </ul>
                     <div>
-                        <button type="button"><img src="#" alt="кнопка по возрастанию"></button>
-                        <button type="button"><img src="#" alt="кнопка по убыванию"></button>
+                        <button type='button'><img src='#' alt='кнопка по возрастанию'></button>
+                        <button type='button'><img src='#' alt='кнопка по убыванию'></button>
                     </div>
                 </div>
                 <div>
                     <div>
-                        <img src="img/item-1-jpg.png" alt="картинка любительской селфи-палки">
+                        <img src='img/item-1-jpg.png' alt='картинка любительской селфи-палки'>
                         <div>
                             <p>Любительская селфи-палка</p>
                             <p>500 руб.</p>
                         </div>
                     </div>
                     <div>
-                        <img src="img/item-2-jpg.png" alt="картинка Профессиональной селфи-палки">
+                        <img src='img/item-2-jpg.png' alt='картинка Профессиональной селфи-палки'>
                         <div>
                             <p>Профессиональная селфи-палка</p>
                             <p>1 500 руб.</p>
                         </div>
                     </div>
                     <div>
-                        <img src="img/item-3-jpg.png" alt="картинка непотопляемой селфи-палки">
+                        <img src='img/item-3-jpg.png' alt='картинка непотопляемой селфи-палки'>
                         <div>
                             <p>Непотопляемая селфи-палка</p>
                             <p>2 500 руб.</p>
                         </div>
                     </div>
                     <div>
-                        <img src="img/item-4-jpg.png" alt="картинка селфи-палки 'следуй за мной'">
+                        <img src='img/item-4-jpg.png' alt='картинка селфи-палки "следуй за мной"'>
                         <div>
-                            <p>селфи-палка "Следуй за мной"</p>
+                            <p>селфи-палка 'Следуй за мной'</p>
                             <p>4 900 руб.</p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <button type="button">назад</button>
+                    <button type='button'>назад</button>
                     <ul>
                         <li>
-                            <button type="button">1</button>
+                            <button type='button'>1</button>
                         </li>
                         <li>
-                            <button type="button">2</button>
+                            <button type='button'>2</button>
                         </li>
                         <li>
-                            <button type="button">3</button>
+                            <button type='button'>3</button>
                         </li>
                     </ul>
-                    <button type="button">вперед</button>
+                    <button type='button'>вперед</button>
                 </div>
             </div>
         </section>
     </main>
     <footer>
         <div>
-            <a href="index.html">
-                <img src="img/device.svg" alt="Логотип сайта DEVICE">
+            <a href='index.html'>
+                <img src='img/device.svg' alt='Логотип сайта DEVICE'>
             </a>
             <ul>
                 <li>
-                    <button type="button">Войти</button>
+                    <button type='button'>Войти</button>
                 </li>
                 <li>
-                    <button type="button">Сравнить</button>
+                    <button type='button'>Сравнить</button>
                 </li>
                 <li>
-                    <button type="button">Корзина</button>
+                    <button type='button'>Корзина</button>
                 </li>
             </ul>
         </div>
@@ -180,44 +184,44 @@
             <address>г. Москва, ул. Строителей, 15</address>
             <ul>
                 <li>
-                    <button type="button">
+                    <button type='button'>
                         Доставка
                     </button>
                 </li>
                 <li>
-                    <button type="button">
+                    <button type='button'>
                         Гарантия
                     </button>
                 </li>
                 <li>
-                    <button type="button">
+                    <button type='button'>
                         Контакты
                     </button>
                 </li>
             </ul>
-            <a href='+74954959595' >Тел.: +7 (495) 495-95-95</a>
+            <a href='tel:+74954959595'>Тел.: +7 (495) 495-95-95</a>
         </div>
         <div>
             <div></div>
             <ul>
                 <li>
-                    <a href="#" aria-label='ссылка на DEVICE в фейсбуке'>
-                        <img src="img/facebook.svg" alt="ссылка на страницу DEVICE в фейсбуке">
+                    <a href='#' aria-label='ссылка на DEVICE в фейсбуке'>
+                        <img src='img/facebook.svg' alt='ссылка на страницу DEVICE в фейсбуке'>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="img/inst.svg" alt="ссылка на страницу DEVICE в инстаграмме">
+                    <a href='#'>
+                        <img src='img/inst.svg' alt='ссылка на страницу DEVICE в инстаграмме'>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <img src="img/twitter.svg" alt="ссылка на страницу DEVICE в твитере">
+                    <a href='#'>
+                        <img src='img/twitter.svg' alt='ссылка на страницу DEVICE в твитере'>
                     </a>
                 </li>
             </ul>
-            <a href="https://htmlacademy.ru/">
-                <img src="img/logo-htmlacademy.svg" alt="ссылка на сайт HTMLacademy">
+            <a href='https://htmlacademy.ru/'>
+                <img src='img/logo-htmlacademy.svg' alt='ссылка на сайт HTMLacademy'>
             </a>
         </div>
     </footer>
