@@ -1,0 +1,37 @@
+.class {
+    /*Позиционирование*/
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;
+    z-index: 100;
+
+    /*Блочная модель*/
+    display: block;
+    float: right;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    padding: 50px;
+
+    /*Типографика*/
+    font-family: "Al Tarikh", sans-serif;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 1.5;
+    text-align: center;
+    color: #333333;
+
+    /*Оформление*/
+    background-color: #333333;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    opacity: 1;
+
+    /*Анимация*/
+    Transition: color 1s;
+
+    /*Разное*/
+    will-change: auto;
+}
